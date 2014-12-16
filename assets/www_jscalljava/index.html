@@ -1,0 +1,18 @@
+<a href="#" onclick="clicked()">Say Hello\n</a>
+<a href="#" onclick="login()">login\n</a>
+<a href="#" onclick="pay()">pay</a>
+<a href="#" onclick="charge()">charge</a>
+<script>
+function clicked() {
+	alert(NativeInterface.sayHello());
+}
+function login() {
+	NativeInterface.login();
+}
+function pay() {
+	NativeInterface.pay();
+}
+function charge() {
+	NativeInterface.charge();
+}
+</script>
